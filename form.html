@@ -3,18 +3,25 @@
   <head>
     <title>Formulär</title>
 	<meta charset="utf-8">
-	<link href="form.css" rel="stylesheet">
   </head>
   <body>
-    <form method="get" action="/a.html">
+    <form method="post" action="tack.html">
       <label for="fnamn">Förnamn:</label><br>
 	  <input type="text" id="fnamn" name="fnamn"><br>
 	  <label for="enamn">Efternamn:</label><br>
-	  <input type="text" id="enamn" name="enamn"><br>
+	  <input type="text" id="enamn" name="enamn"><br><br>
 	  <input type="radio" id="Man" name="Kön">
 	  <label for="Man">Man</label><br>
 	  <input type="radio" id="Kvinna" name="Kön">
-	  <label for="Kvinna">Kvinna</label><br>
+	  <label for="Kvinna">Kvinna</label><br><br>
+	  <input type="checkbox" id="fordon1" name="fordon1">
+	  <label for="fordon1">Jag har en cykel.</label><br>
+	  <input type="checkbox" id="fordon2" name="fordon2">
+	  <label for="fordon2">Jag har en bil.</label><br>
+	  <input type="checkbox" id="fordon3" name="fordon3">
+	  <label for="fordon3">Jag har en båt.</label><br><br>
+	  <input type="submit">
+	  <input type="reset">
 	</form>
   </body>
 </html>
